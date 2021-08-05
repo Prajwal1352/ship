@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+	background: #5ACA6C;
+	margin-left: -200px;
+	border: 1px solid black;
+}
+
+.box table[id="customer"],td, th,tr {
+  padding: 2px;
+	width:1600px;
+	margin-top: 0px;
+}
+.box table[id="customer"] ,td, th,tr{
+		border-bottom:2px solid white; 
+		color: white;
+	}
+	.box{
+		background:#4A4A48;
+		border: 1px solid black;
+		width: 1500px;
+	}
+.table table[id="customer1"],td, th,tr{
+  padding: 2px;
+	width:1500px;
+	margin-top: 0px;
+}
+.table table[id="customer1"] ,td, th,tr{
+		border-bottom:2px solid white; 
+		color: white;
+	}
+	.table{
+		background:#4A4A48;
+		border: 1px solid black;
+		width: 500px;
+	}
+.table1 table[id="customer2"],td, th,tr{
+  padding: 2px;
+	width:500px;
+	margin-top: 30px;
+}
+.table1 table[id="customer2"] ,td, th,tr{
+		border-bottom:2px solid white; 
+		color: white;
+	}
+	.table1 table{
+		background:#4A4A48;
+		border: 1px solid black;
+		width: 500px;
+	}
+.volume table[id="volume"],td, th,tr{
+  padding: 2px;
+	width:5000px;
+	margin-left: 1020px;
+	margin-top: -200px;
+}
+.volume table[id="volume"] ,td, th,tr{
+		border-bottom:2px solid white; 
+		color: white;
+	}
+	.volume table{
+		background:#4A4A48;
+		border: 1px solid black;
+		width: 600px;
+	}
+h3{
+	border: 1px solid green;
+	height: 20px;
+	background:  white;
+}
+button[type="button"]{
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #bcbccf;
+	background:  #4CB8C4;
+	padding: 9px 30px;
+	color: white;
+	margin: 10px auto;
+	transition: 0.4s;
+	border-radius: 5px;
+}

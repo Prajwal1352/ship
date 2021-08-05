@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background:#000000;
+}
+button[type="button"]{
+	float: left;
+	border: 1px solid #bcbccf;
+	background: #00C2E7;
+	display: inline-block;
+	color: white;
+	padding: 9px 30px;
+	margin: 10px auto;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+}
+button[type="button"]:hover{
+	background: #747474;
+	color:#ff0000;
+}
+h1{
+	text-align: center;
+	color: blanchedalmond;
+}

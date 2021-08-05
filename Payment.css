@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background: #42929C;
+}
+h1{
+	text-align:center;
+	
+}
+.box input[type="text"]{
+	margin-left: 10px;
+	padding: 9px 10px;
+	width: 400px;
+	background: #B0494B;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 2 34 4 red;
+}
+div.b {
+	float: left;
+	text-align: right;
+}
+font{
+	font-size: 20;
+}
+div.c {
+	float: left;
+	text-align: right;
+	margin-left: 150px;
+}
+.box input[type="submit"]{
+	margin-top: 200px;
+		margin-right: 190px;
+	margin-left: 100px;
+	padding: 9px 20px;
+	background: black;
+	color: red;
+	cursor: pointer;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+}
+.box input[type="submit"]:hover{
+	background: white;
+}

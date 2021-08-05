@@ -1,0 +1,11 @@
+button[type="button"]{
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #bcbccf;
+	background:  #4CB8C4;
+	padding: 9px 30px;
+	color: white;
+	margin: 10px auto;
+	transition: 0.4s;
+	border-radius: 5px;
+}

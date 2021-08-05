@@ -1,0 +1,97 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: ;
+}
+button{
+	float: left;
+	border: 1px solid #bcbccf;
+	background: #050505;
+	display: inline-block;
+	color: white;
+	padding: 20px 30px;
+	margin: 10px auto;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+}
+button:hover{
+	background: white;
+	color:#ff0000;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+	background: #00B6FF;
+	color:white;
+	position: absolute;
+	display: none;
+	min-width: 150px;
+	z-index: 1;
+	border:none;
+}
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 19px 30px;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+h1{
+	text-align: center;
+}
+.box div.a{
+	text-align: left;
+	float: left;
+	margin-left: 30px;
+	font-size: 22;
+}
+.box input[type="number"]{
+	float: right;
+	padding: 3px 30px;
+	width:150px;
+	margin-left: 10px;
+	border: 2px solid aqua;
+	color:black;
+	border-radius: 5px;
+	
+}
+.box input[type="submit"]{
+	background: #050505;
+	display: block;
+	margin: 150px 700px;
+	text-align: center;
+	float: center;
+	border:2px solid #079C9D;
+	padding: 14px 42px;
+	width:150px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transform: 0.30s;
+	cursor: pointer;
+} 
+.box input[type="submit"]:hover{
+	background: white;
+	color: #ff0000;
+}
+table{
+	display: block;
+	float: right;
+	margin-top: -325px;
+	margin-right: 200px;
+	border: 1px solid white;
+	color: white;
+	background: black;
+	width:300px;
+}
+table ,th,td{
+	border: 1px solid red;	
+	width: 300px;
+}
